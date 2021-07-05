@@ -17,6 +17,33 @@ $(document).ready(function(){
     $("[type=tel]").mask("+7 (999) 999-99-99");
   });
 
+  $(".js-pedagogi-slider").slick({
+    slidesToShow: 3
+  });
+
+  $(".js-certs-slider").slick({
+    slidesToShow: 3
+  });
+
+  $(".js-reviews-slider").slick({
+    slidesToShow: 1,
+  });
+
+  $(".js-reviews-video-slider").slick({
+    slidesToShow: 1,
+    centerMode: true,
+    variableWidth: true,
+    dots: true
+  });
+
+  $(".js-news-slider").slick({
+    slidesToShow: 1,
+    centerMode: true,
+    variableWidth: true,
+    arrows: false,
+    dots: true
+  });
+
   
 
  
