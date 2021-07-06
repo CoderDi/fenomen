@@ -3,6 +3,41 @@
 
 
 $(document).ready(function(){
+  $(document).scroll(function(){
+    if ($(this).scrollTop() > 0) {
+      $("body").addClass("active");
+    } else {
+      $("body").removeClass("active");
+    }
+  })
+
+  $(".video-block").on("click", function(){
+    $("#popupVideo .popup-video").html("").append('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/'+ $(this).data("video") + '?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+    $("#popupVideo").addClass("active");
+  });
+  $(".review-video-arrow").on("click", function(){
+    $("#popupVideo .popup-video").html("").append('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/'+ $(this).data("video") + '?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+    $("#popupVideo").addClass("active");
+  });
+
+  $(".js-getcall").on("click", function(){
+    $("#popupCall").addClass("active");
+  });
+  $(".js-popup-close").on("click", function(){
+    $(".popup").removeClass("active");
+  });
+
+  $(".js-butter").on("click", function(){
+    $(this).toggleClass("active");
+    $("#menu").slideToggle(200)
+  });
+  $(".header-city-current").on("click", function(){
+    $(this).parents(".header-city").toggleClass("active");
+  });
+
+  $(".news-item-text-more").on("click", function(){
+    $(this).hide().parent().addClass("active")
+  });
 
   
 
@@ -18,22 +53,57 @@ $(document).ready(function(){
   });
 
   $(".js-pedagogi-slider").slick({
-    slidesToShow: 3
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 980,
+        settings: {
+          variableWidth: true
+        }
+      }
+    ]
   });
 
   $(".js-certs-slider").slick({
-    slidesToShow: 3
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          variableWidth: true
+        }
+      }
+    ]
   });
 
   $(".js-reviews-slider").slick({
     slidesToShow: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          variableWidth: true
+        }
+      }
+    ]
   });
 
   $(".js-reviews-video-slider").slick({
     slidesToShow: 1,
     centerMode: true,
     variableWidth: true,
-    dots: true
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          centerMode: false,
+          dots: false,
+        }
+      }
+    ]
   });
 
   $(".js-news-slider").slick({
@@ -41,7 +111,20 @@ $(document).ready(function(){
     centerMode: true,
     variableWidth: true,
     arrows: false,
-    dots: true
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          centerMode: false,
+          dots: false,
+        }
+      }
+    ]
+  });
+
+  $(".js-menu-arrow").on("click", function(){
+    $(this).toggleClass("active").next(".banner-submenu").slideToggle(200);
   });
 
   

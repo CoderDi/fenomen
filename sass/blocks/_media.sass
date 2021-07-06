@@ -1,0 +1,617 @@
+@media screen and (max-width: 1300px)
+  .header
+    &-city
+      &.active
+        .header-city-drop
+          opacity: 1
+          visibility: visible
+        .header-city-current::after
+          background-color: #fff
+          transform: rotate(180deg)
+    &-top, &-bottom
+      padding-left: 20px
+      padding-right: 20px
+    .wrapper
+      padding: 0
+    &-address
+      display: none
+    &-btns
+      flex-grow: 2
+      justify-content: flex-end
+    &-butter
+      display: block
+      width: 24px
+      height: 24px
+      background: url(../images/icons.svg#butter) no-repeat center
+      background-size: 18px 12px
+      cursor: pointer
+      &.active
+        background: url(../images/icons.svg#close) no-repeat center
+        background-size: 12px 12px
+    &-menu
+      display: block
+      padding-bottom: 30px
+      margin: 0 0 50px
+      border-bottom: 2px solid rgba(255,255,255, .2);
+      &-item
+        margin-bottom: 20px
+        a
+          font-size: 18px;
+          line-height: 22px;
+      &-container
+        position: absolute
+        max-height: calc(100vh - 180px)
+        
+        border-top: 2px solid rgba(255,255,255, .2);
+        overflow: hidden
+        overflow-y: auto
+        top: 100%
+        left: 0
+        width: 100%
+        background: #249EFA;
+        z-index: 3
+        display: block
+        padding: 50px 20px
+        box-shadow: 0 5px 5px 1px rgba(0,0,0,.1)
+        display: none
+    &-search
+      &-input
+        width: 100%
+        border: 2px solid #FFFFFF;
+  .banner
+    &::before
+      width: 100%
+    &-img
+      width: auto
+      display: flex
+      align-items: center
+      img
+        max-height: calc(100% + 200px)
+        width: auto
+        position: static
+        transform: none
+    &-menu
+      display: none
+      &--header
+        display: block
+      &-list
+        display: block
+      &-item
+        margin-bottom: 24px
+        margin-right: 0
+        flex-wrap: wrap
+        &-arrow.active
+          background-color: #fff
+          transform: rotate(180deg)
+        & > a
+          font-size: 20px;
+          line-height: 24px;
+    &-submenu
+      position: static
+      opacity: 1
+      visibility: visible
+      width: 100%
+      padding: 0
+      display: none
+      &-list
+        margin-top: 12px
+    &-title
+      font-size: 60px
+      line-height: 1 
+    &-subtitle
+      font-size: 32px
+      line-height: 1 
+    &-list
+      flex-wrap: wrap
+      margin-bottom: -20px
+    &-item
+      width: 50%
+      padding-bottom: 20px
+  .video
+    &-flex
+      &::before
+        left: -100px
+  .slick
+    &-arrow
+      display: none
+      opacity: 0
+      visibility: hidden
+  .footer
+    &-top
+      &-content
+        padding-left: 330px
+      &-link
+        display: block
+      &-get
+        margin-top: 0
+      &-flex
+        display: block
+        padding-bottom: 0
+      &-block
+        width: 100%
+        margin-bottom: 35px
+      &-btn
+        max-width: 350px
+    &-socials
+      margin-top: 35px
+    &-logo
+      &--desktop
+        display: none
+      &--mobile
+        display: flex
+        img
+          width: 51px
+          height: 37px
+          margin-right: 13px
+      &-text
+        font-size: 9px
+        line-height: 1
+        padding: 0
+        span
+          font-size: 13px
+          line-height: 1
+    &-bottom
+      padding-top: 50px
+      &-wrapper
+        flex-direction: column
+        align-items: flex-start
+      &-contacts
+        margin: 50px auto 30px
+      &-menu
+        width: 100%
+        justify-content: center
+        margin-top: 50px
+      &-socials
+        position: absolute
+        top: 9px
+        right: 20px
+    &-politic
+      order: 10
+  .reviews
+    &::before
+      left: -200px
+
+
+@media screen and (max-width: 980px)
+  body
+    padding-top: 170px
+  .header
+    &-btns
+      display: none
+    &-phone
+      font-weight: normal
+      display: block
+      text-align: left
+      margin-bottom: 6px
+      &s
+        margin-bottom: -6px
+        background-position: left 3px
+  .banner
+    &-flex
+      display: block
+    &-btn
+      display: flex
+      width: 100%
+      max-width: 320px
+      margin-bottom: 20px
+      font-weight: bold
+    &-subtitle
+      margin-bottom: 40px
+    &-title
+      margin-bottom: 30px
+    &-content
+      margin-bottom: 30px
+    &-img
+      height: auto
+      max-width: 500px
+      margin: 0 auto
+      img
+        max-width: 100%
+        height: auto
+      &-shape
+        &2, &3
+          display: none
+        &1
+          top: 150px
+          left: 15px
+          width: 20px
+          height: 20px
+        &4
+          top: auto
+          left: auto
+          bottom: 20px
+          right: 40px
+    &-arrow
+      display: none
+  .zapis
+    &-form
+      flex-direction: column
+      max-width: 320px
+      margin: 0 auto
+      &-input, &-submit
+        width: 100%
+        height: 44px
+        margin: 0 0 20px
+      &-submit
+        height: 49px
+        order: 10
+        margin: 0
+      &-check
+        margin: 0 0 20px
+        .check-text
+          font-size: 12px
+          line-height: 20px
+  .tag
+    min-width: 180px
+    &s
+      &-list
+        min-width: 1200px
+        &-container
+          width: 100%
+          overflow-x: auto
+  .pedagog
+    padding-left: 0
+    padding-right: 20px
+    &i-slider
+      margin: 0 -20px
+      .slick-list
+        padding-left: 20px
+    &-container
+      width: 300px
+  .blog
+    &-item
+      width: 50%
+  .review-video-container
+    width: 760px
+
+
+
+
+@media screen and (max-width: 768px)
+  .banner
+    &-item
+      width: 100%
+      &-text
+        margin-top: 0
+  .zapis
+    padding: 50px 0
+    &-title
+      text-align: left
+    &-text
+      text-align: left
+      color: #969696;
+  .video
+    padding: 50px 0
+    &-title
+      text-align: left
+      font-size: 28px;
+      line-height: 34px;
+      margin-bottom: 20px
+    &-flex
+      flex-wrap: wrap
+      &::before
+        top: auto
+        bottom: 140px
+        width: 250px
+        height: 230px
+        left: -20px
+        background-size: contain
+    &-block
+      order: 5
+      width: 100%
+    &-content
+      width: 100%
+      margin-bottom: 95px
+      &-title
+        margin-bottom: 10px
+        padding: 0
+        font-size: 28px;
+        line-height: 34px;
+      &-btn
+        margin-left: 0
+      &-list
+        margin-left: 30px
+        li
+          padding: 0
+          font-size: 14px;
+          line-height: 17px;
+          margin-bottom: 15px
+          &::before
+            left: -30px
+            top: 2px
+  .section
+    padding: 50px 0
+    &-title
+      font-size: 28px
+      line-height: 34px
+      margin-bottom: 12px
+    &-subtitle
+      font-size: 16px
+      line-height: 1
+  .tag
+    &-block
+      margin-top: 30px
+      flex-wrap: wrap
+      &-img
+        order: 2
+        width: 100%
+        margin: 0
+        height: 240px
+        border-radius: 0
+      &-content
+        padding: 50px 24px
+      &-title
+        font-size: 28px
+        line-height: 34px
+        margin-bottom: 20px
+      &-text
+        margin-bottom: 20px
+  .why
+    padding-bottom: 0
+    &-title
+      text-align: left
+    &-list
+      margin-top: 30px
+    &-block
+      flex-wrap: wrap
+      overflow: hidden
+      &-content
+        width: 100%
+        padding: 50px 24px
+      &-img
+        order: 2
+        width: 100%
+      &-list
+        li
+          color: #969696;
+          font-weight: bold
+          padding-left: 32px
+      &-text
+        margin-top: 30px
+        padding-left: 26px
+        font-weight: normal
+  .front
+    margin-top: 50px
+    padding-top: 50px
+    min-height: 0
+    &-container
+      flex-wrap: wrap
+      justify-content: center
+    &-img
+      order: 2
+      height: 294px
+      margin-top: 50px
+      width: 100%
+      img
+        height: 100%
+        width: auto
+        margin: 0 auto
+    &-content
+      width: 100%
+    &-title
+      font-size: 32px
+      line-height: 1
+      margin: 0 0 30px
+    &-btn
+      font-size: 14px
+  .pedagog
+    &i
+      padding: 50px 0
+  .cert
+    &-container
+      width: 240px
+    &-img
+      height: 280px
+  .news
+    padding: 50px 0
+    &-slider
+      .slick-list
+        padding-left: 20px
+    &-item
+      padding: 0 20px 0 0
+      &-container
+        width: 300px
+        flex-wrap: wrap
+        padding: 0
+      &-img
+        order: 2
+        width: 100%
+        margin: 0
+        height: 240px
+      &-content
+        padding: 50px 20px
+      &-title
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 12px
+      &-text
+        max-height: 88px
+        position: relative
+        overflow: hidden
+        line-height: 22px
+        margin-bottom: 20px
+        &.active
+          max-height: 10000px
+        &-more
+          display: block
+          position: absolute
+          bottom: 0
+          left: 0
+          width: 100%
+          background: #fff
+          font-size: 18px
+          line-height: 22px
+          color: #000
+  .blog
+    &-list
+      margin: 50px 0 0
+    &-item
+      padding: 0
+      margin-bottom: 50px
+      width: 100%
+      &:nth-child(n+3)
+        display: none
+    &-more-btn
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 100%
+      height: 44px
+      max-width: 320px
+      margin: 0 auto
+      background: #FFFFFF;
+      border: 1px solid #D3D3D3;
+      box-sizing: border-box;
+      border-radius: 50px;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000
+  .review
+    padding: 0 20px 0 0
+    position: relative
+    &-container
+      width: 300px
+      padding: 50px 20px
+      &::after
+        display: none
+    &-img
+      width: 96px
+      height: 96px
+      top: 20px
+      right: 20px
+      left: auto
+    &-text
+      line-height: 22px
+      max-height: 88px
+      overflow: hidden
+      position: relative
+      &.active
+        max-height: 10000px
+    &s
+      padding: 50px 0
+      &::before
+        width: 200px
+        height: 200px
+        top: -100px
+        left: -100px
+      &-slider
+        margin: 30px -20px 50px
+        .slick-list
+          padding-left: 20px
+        &::before
+          position: absolute
+          bottom: -65px
+          right: -10px
+          content: ''
+          width: 100px
+          height: 100px
+          background: url(../images/icons.svg#camera) no-repeat center
+          background-size: contain
+      &-video
+        .slick-list
+          padding-left: 20px
+    &-video
+      padding: 0 20px 0 0
+      &-container
+        width: 300px
+        height: 330px
+  .insta
+    &-line
+      background-image: url(../images/insta-bg-mobile.png)
+    &-phone
+      transform: translateX(-47%)
+  .footer
+    &::before
+      top: 65px
+      right: 0
+      left: auto
+      width: 113px
+      height: 200px
+      background: url(../images/icons.svg#footer-mobile) no-repeat center
+      background-size: contain
+    &-top
+      padding: 50px 0 0
+      &-content
+        padding: 0
+        width: 100%
+      &-flex
+        margin-bottom: 30px
+      &-link
+        font-size: 16px
+        line-height: 20px
+      &-title
+        margin-bottom: 20px
+      &-phone
+        font-size: 21px
+        line-height: 26px
+        margin-bottom: 12px
+        font-weight: normal
+      &-mail
+        margin-bottom: 12px
+      &-block
+        padding-bottom: 30px
+        margin: 0
+      &-btn
+        margin: 0
+    &-bottom
+      &-menu
+        flex-wrap: wrap
+        margin-bottom: -12px
+        &-item
+          width: 50%
+          margin-bottom: 12px
+          text-align: center
+      &-btn
+        width: 280px
+        height: 44px
+  .popup
+    &-content
+      padding: 50px 20px
+    &-title
+      font-size: 28px
+      line-height: 1
+    &-subtitle
+      font-size: 16px
+  .check
+    text-align: left
+
+
+
+@media screen and (max-width: 480px)
+  .blog
+    &-item
+      &-img
+        height: 200px
+        margin-bottom: 20px
+      &-link
+        font-size: 18px
+        line-height: 22px
+  .banner 
+    &-title
+      font-size: 36px
+      line-height: 44px
+      margin-bottom: 30px
+    &-subtitle
+      font-size: 20px
+      line-height: 24px
+  
+
+
+@media screen and (max-width: 360px)
+  .pedagog
+    &-container
+      width: 280px
+      padding-left: 20px
+      padding-right: 20px
+  .news-item-container
+    width: 280px
+  .review
+    &-container,&-video-container
+      width: 280px
+
+
+
+
+
+
+
