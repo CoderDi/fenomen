@@ -182,11 +182,12 @@
 			</g>
 		</svg>
 
-		<svg viewBox="0 0 282 501" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<g id="footer-bg" class="img">	
-				<path d="M269.927 205.572C229.412 68.3148 78.3155 11.3335 7.83155 0H0V492.745C8.17962 496.232 42.186 502.684 112.774 500.591C201.01 497.976 320.571 377.144 269.927 205.572Z" fill="#FFDD29"/>
+		<svg viewBox="0 0 460 579" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+			<g id="footer-bg" class="img">
+				<path d="M440.307 237.577C374.219 78.9506 127.749 13.098 12.7749 0H0V569.46C13.3426 573.49 68.814 580.946 183.958 578.528C327.888 575.505 522.918 435.861 440.307 237.577Z" fill="#FFDD29"/>
 			</g>
 		</svg>
+
 
 		<svg viewBox="0 0 165 165" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<g id="computer" class="img">
