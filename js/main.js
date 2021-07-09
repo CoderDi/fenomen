@@ -127,6 +127,38 @@ $(document).ready(function(){
     $(this).toggleClass("active").next(".banner-submenu").slideToggle(200);
   });
 
+  function sliderResize(){
+    if ($(window).innerWidth() <= 1170) {
+      if ($(".price-list").hasClass("slick-slider")) {}
+      else {
+        $(".price-list").slick({
+          arrows: false,
+          infinite: false,
+          speed: 300,
+          slidesToShow: 2,
+          variableWidth: true,
+          slide: ".price-item",
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                variableWidth: true
+              }
+            }
+          ]
+        })
+      }
+    } else {
+      if ($(".price-list").hasClass("slick-slider")) {
+        $(".price-list").slick("unslick")
+      }
+    }
+  }
+  sliderResize();
+  $(window).resize(function(){
+    sliderResize();
+  });
   
 
  

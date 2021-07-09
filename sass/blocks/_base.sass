@@ -1,16 +1,16 @@
 @font-face
-  font-family: 'CeraRoundPro';
-  src: url("../fonts/CeraRoundProRegular.eot");
-  src: url("../fonts/CeraRoundProRegular.eot") format("embedded-opentype"), url("../fonts/CeraRoundProRegular.woff2") format("woff2"), url("../fonts/CeraRoundProRegular.woff") format("woff"), url("../fonts/CeraRoundProRegular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal; 
+  font-family: 'CeraRoundPro'
+  src: url("../fonts/CeraRoundProRegular.eot")
+  src: url("../fonts/CeraRoundProRegular.eot") format("embedded-opentype"), url("../fonts/CeraRoundProRegular.woff2") format("woff2"), url("../fonts/CeraRoundProRegular.woff") format("woff"), url("../fonts/CeraRoundProRegular.ttf") format("truetype")
+  font-weight: 400
+  font-style: normal 
 
 @font-face 
-  font-family: 'CeraRoundPro';
-  src: url("../fonts/CeraRoundProBold.eot");
-  src: url("../fonts/CeraRoundProBold.eot") format("embedded-opentype"), url("../fonts/CeraRoundProBold.woff2") format("woff2"), url("../fonts/CeraRoundProBold.woff") format("woff"), url("../fonts/CeraRoundProBold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal; 
+  font-family: 'CeraRoundPro'
+  src: url("../fonts/CeraRoundProBold.eot")
+  src: url("../fonts/CeraRoundProBold.eot") format("embedded-opentype"), url("../fonts/CeraRoundProBold.woff2") format("woff2"), url("../fonts/CeraRoundProBold.woff") format("woff"), url("../fonts/CeraRoundProBold.ttf") format("truetype")
+  font-weight: 700
+  font-style: normal 
 
 *
   font-family: "CeraRoundPro", sans-serif
@@ -36,7 +36,7 @@ body
     top: 0
     left: 0
     width: 100%
-    height: 100%
+    height: 220px
     background: #249EFA
   &.active
     .header
@@ -77,10 +77,10 @@ body
         transform: rotate(180deg)
     &-current
       display: block
-      font-weight: bold;
-      font-size: 14px;
+      font-weight: bold
+      font-size: 14px
       line-height: 1
-      color: #FFFFFF;
+      color: #FFFFFF
       cursor: pointer
       &::after
         position: relative
@@ -89,7 +89,7 @@ body
         content: ''
         width: 16px
         height: 16px
-        border: 1px solid #FFDD29;
+        border: 1px solid #FFDD29
         box-sizing: border-box
         border-radius: 100%
         background: url(../images/icons.svg#arrow-bottom) no-repeat 2px 1px
@@ -104,52 +104,52 @@ body
       top: 100%
       padding-top: 20px
     &-list
-      background: #FFFFFF;
-      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
-      border-radius: 10px;
+      background: #FFFFFF
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25)
+      border-radius: 10px
       padding: 10px 23px
       min-width: 210px
       margin: 0
       list-style: none
     &-item
       display: block
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 14px;
+      font-weight: normal
+      font-size: 14px
+      line-height: 14px
       padding: 13px 0
-      border-bottom: 1px solid #F3F3F3;
+      border-bottom: 1px solid #F3F3F3
       &:hover
         a
-        font-weight: bold;
+        font-weight: bold
 
       &:last-child
         border: none
       a
-        color: #000000;
+        color: #000000
   &-address
     &-text
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 14px;
-      color: #FFFFFF;
+      font-weight: normal
+      font-size: 14px
+      line-height: 14px
+      color: #FFFFFF
       display: inline-block
       margin-right: 16px
     &-link
       display: inline-block
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 14px;
-      text-decoration-line: underline;
-      color: #FFDD29;
+      font-weight: normal
+      font-size: 14px
+      line-height: 14px
+      text-decoration-line: underline
+      color: #FFDD29
       &:hover
         text-decoration: none
   &-phone
     display: inline-block
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 16px;
-    text-align: right;
-    color: #FFFFFF;
+    font-weight: bold
+    font-size: 16px
+    line-height: 16px
+    text-align: right
+    color: #FFFFFF
     margin-left: 15px
     &:hover
       text-decoration: underline
@@ -161,27 +161,27 @@ body
     display: flex
     justify-content: center
     align-items: center
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #FFFFFF;
+    font-weight: 500
+    font-size: 14px
+    line-height: 16px
+    text-align: center
+    color: #FFFFFF
     height: 45px
     width: 218px
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 100px;
+    border: 2px solid #FFFFFF
+    box-sizing: border-box
+    border-radius: 100px
     margin-right: 15px
     cursor: pointer
     &:hover
-      background: #FFDD29;
-      color: #3FAAFB;
-      border-color: #FFDD29;
+      background: #FFDD29
+      color: #3FAAFB
+      border-color: #FFDD29
     &2
-      background: #FFDD29;
-      border-radius: 100px;
-      color: #3FAAFB;
-      border-color: #FFDD29;
+      background: #FFDD29
+      border-radius: 100px
+      color: #3FAAFB
+      border-color: #FFDD29
       &:hover
         background: #fff
         border-color: #fff
@@ -199,15 +199,15 @@ body
       margin-right: 13px
       height: 37px
     &-text
-      font-weight: normal;
-      font-size: 9px;
-      line-height: 9px;
-      color: #FFFFFF;
+      font-weight: normal
+      font-size: 9px
+      line-height: 9px
+      color: #FFFFFF
       span
         display: block
-        font-weight: 500;
-        font-size: 13px;
-        line-height: 15px;
+        font-weight: 500
+        font-size: 13px
+        line-height: 15px
   &-butter
     display: none
   &-menu
@@ -228,13 +228,13 @@ body
       &.active a
         font-weight: bold
       a
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 14px;
-        color: #FFFFFF;
+        font-weight: normal
+        font-size: 14px
+        line-height: 14px
+        color: #FFFFFF
         border-bottom: 1px solid transparent
         &:hover
-          border-color: #FFDD29;
+          border-color: #FFDD29
   &-search
     display: block
     position: relative
@@ -244,12 +244,12 @@ body
       width: 243px
       height: 35px
       border: 2px solid rgba(255,255,255, .2)
-      box-sizing: border-box;
-      border-radius: 100px;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 14px;
-      color: #FFFFFF;
+      box-sizing: border-box
+      border-radius: 100px
+      font-weight: normal
+      font-size: 14px
+      line-height: 14px
+      color: #FFFFFF
       background: transparent
       padding-left: 40px
       &:active, &:focus
@@ -271,23 +271,24 @@ body
   justify-content: center
   width: 200px
   height: 44px
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 18px;
-  text-align: center;
-  color: #000000;
-  background: #FFDD29;
-  border-radius: 50px;
+  font-weight: normal
+  font-size: 18px
+  line-height: 18px
+  text-align: center
+  color: #000000
+  background: #FFDD29
+  border-radius: 50px
   border: none
   cursor: pointer
   &:hover
-    background: #249EFA;
+    background: #249EFA
     color: #fff
 
 .banner
   position: relative
   background: #249EFA
   padding: 50px 0 56px
+
   &-btn
     display: none
   &::before
@@ -331,22 +332,22 @@ body
         margin-left: 15px
         width: 22px
         height: 22px
-        border: 2px solid #FFDD29;
-        box-sizing: border-box;
+        border: 2px solid #FFDD29
+        box-sizing: border-box
         background: url(../images/icons.svg#arrow-bottom2) no-repeat 3px 2px
         background-size: 12px 13px
         border-radius: 100%
         cursor: pointer
       & > a
         display: inline-block
-        font-weight: bold;
-        font-size: 19.6546px;
-        line-height: 20px;
-        color: #FFFFFF;
+        font-weight: bold
+        font-size: 19.6546px
+        line-height: 20px
+        color: #FFFFFF
         border-bottom: 2px solid transparent
         padding-bottom: 3px
         &:hover
-          border-color: #FFDD29;
+          border-color: #FFDD29
   &-submenu
     opacity: 0
     visibility: hidden
@@ -360,26 +361,26 @@ body
       margin: 0
       padding: 10px 23px
       width: 207px
-      background: #FFFFFF;
-      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
-      border-radius: 10px;
+      background: #FFFFFF
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25)
+      border-radius: 10px
     &-item
       display: block
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 14px;
+      font-weight: normal
+      font-size: 14px
+      line-height: 14px
       padding: 13px 0
-      border-bottom: 1px solid #F3F3F3;
+      border-bottom: 1px solid #F3F3F3
       &:hover
         a
-          font-weight: bold;
+          font-weight: bold
       &:last-child
         border: none
       a
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 14px;
-        color: #000000;
+        font-weight: normal
+        font-size: 14px
+        line-height: 14px
+        color: #000000
   &-flex
     position: relative
     width: 100%
@@ -388,18 +389,18 @@ body
     justify-content: space-between
     margin-bottom: 75px
   &-title
-    font-weight: bold;
-    font-size: 86.862px;
-    line-height: 87px;
-    color: #FFFFFF;
+    font-weight: bold
+    font-size: 86.862px
+    line-height: 87px
+    color: #FFFFFF
     margin: 0 0 45px
   &-subtitle
     display: block
     max-width: 510px
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 36px;
-    color: #FFFFFF;
+    font-weight: normal
+    font-size: 36px
+    line-height: 36px
+    color: #FFFFFF
   &-img
     position: relative
     width: 695px
@@ -410,7 +411,49 @@ body
       width: 100%
       height: auto
       top: 50%
-      transform: translateY(-52%)
+      transform: translateY(-50%)
+    &--individual
+      flex-shrink: initial
+      img
+        top: auto
+        bottom: -200px
+        transform: none
+    &--group
+      width: 550px
+      .banner-img-shape1
+        left: -100px
+      .banner-img-shape4
+        right: 30px
+        left: auto
+        bottom: -70px
+      img
+        top: auto
+        bottom: -200px
+        transform: none
+    &--probnoe img
+      width: 110%
+    &-grown
+      width: 50%
+    &--grown
+      position: absolute
+      left: 45%
+      width: 55%
+      bottom: 0
+      top: 1px
+      overflow: hidden
+      &::before
+        position: absolute
+        content: ''
+        height: 110%
+        left: -100px
+        width: 430px
+        background: url(../images/icons.svg#grown-vector) no-repeat center
+        background-size: contain
+      img
+        display: block
+        width: 100%
+        height: 100%
+        object-fit: cover
     &-shape
       &1
         position: absolute
@@ -430,7 +473,7 @@ body
         position: absolute
         width: 42px
         height: 42px
-        border: 7px solid #FFDD29;
+        border: 7px solid #FFDD29
         left: -90px
         top: 100px
         border-radius: 100%
@@ -438,17 +481,25 @@ body
         position: absolute
         width: 37px
         height: 37px
-        border: 7px solid #FFDD29;
+        border: 7px solid #FFDD29
         right: 20px
         top: 20px
+        border-radius: 100%
+      &5
+        position: absolute
+        width: 37px
+        height: 37px
+        border: 7px solid #FFDD29
+        left: -150px
+        bottom: -120px
         border-radius: 100%
   &-arrow
     position: absolute
     width: 100px
     height: 100px
-    background: url(../images/icons.svg#arrows) no-repeat center 22px, #FFFFFF;
+    background: url(../images/icons.svg#arrows) no-repeat center 22px, #FFFFFF
     background-size: 35px 49px
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25)
     border-radius: 100%
     bottom: -50px
     left: 50%
@@ -467,8 +518,8 @@ body
     width: 25%
     &-container
       height: 100%
-      background: #FFFFFF;
-      border-radius: 15px;
+      background: #FFFFFF
+      border-radius: 15px
       padding: 50px 50px 35px
       text-align: center
       display: flex
@@ -494,36 +545,36 @@ body
     &-title
       display: block
       margin: 0 0 20px
-      font-weight: bold;
-      font-size: 28px;
-      line-height: 28px;
-      text-align: center;
-      color: #000000;
+      font-weight: bold
+      font-size: 28px
+      line-height: 28px
+      text-align: center
+      color: #000000
     &-text
       display: block
       flex-grow: 2
       margin-bottom: 20px
-      font-weight: normal;
-      font-size: 18px;
-      line-height: 18px;
-      text-align: center;
-      color: #969696;
+      font-weight: normal
+      font-size: 18px
+      line-height: 18px
+      text-align: center
+      color: #969696
     &-price
       display: block
       margin-bottom: 20px
-      font-weight: bold;
-      font-size: 32px;
-      line-height: 32px;
-      text-align: center;
-      color: #249EFA;
+      font-weight: bold
+      font-size: 32px
+      line-height: 32px
+      text-align: center
+      color: #249EFA
 
 .input
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.11);
-  border-radius: 8px;
-  width: 100%;
-  height: 40px;
-  text-align: center; 
+  background: #ffffff
+  border: 1px solid rgba(0, 0, 0, 0.11)
+  border-radius: 8px
+  width: 100%
+  height: 40px
+  text-align: center 
   font-size: 16px
   line-height: 22px
   color: #000
@@ -536,20 +587,20 @@ body
   input
     display: none
     &:checked ~ .check-custom
-      background: #249EFA;
-      boredr-color: #249EFA;
+      background: #249EFA
+      boredr-color: #249EFA
   &-custom
     width: 17px
     height: 17px
     margin-right: 5px
-    border: 1px solid #C4C4C4;
+    border: 1px solid #C4C4C4
     flex-shrink: 0
   &-text
     font-size: 14px
     display: block
     margin-left: 5px
     a
-      color: #27a4ff;
+      color: #27a4ff
       &:hover
         text-decoration: underline
 
@@ -563,15 +614,15 @@ body
     text-align: center
     margin: 0 0 10px
     span
-      color: #27a4ff;
+      color: #27a4ff
   &-text
     display: block
     text-align: center
     margin: 0 auto 45px
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #000000;
+    font-weight: normal
+    font-size: 16px
+    line-height: 22px
+    color: #000000
     max-width: 925px
   &-form
     display: flex
@@ -592,7 +643,7 @@ body
 
 .video
   padding: 70px 0
-  background: #27a4ff;
+  background: #27a4ff
   &-title
     position: relative
     z-index: 2
@@ -606,13 +657,13 @@ body
     align-items: center
     justify-content: space-between
     &::before 
-      content: "";
-      position: absolute;
-      background: url(../images/front_video.png) no-repeat center left;
-      height: 376px;
-      width: 390px;
-      top: 30px;
-      left: 60px;
+      content: ""
+      position: absolute
+      background: url(../images/front_video.png) no-repeat center left
+      height: 376px
+      width: 390px
+      top: 30px
+      left: 60px
   &-block
     position: relative
     width: calc(50% - 15px)
@@ -630,7 +681,7 @@ body
         height: 100%
         box-shadow: inset 0px 0px 40px 20px rgba(0, 0, 0, 0.39)
       .video-block-btn
-        box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.22);
+        box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.22)
     &-img
       display: block
       width: 100%
@@ -641,7 +692,7 @@ body
       z-index: 2
       width: 120px
       height: 120px
-      background: rgba(255, 255, 255, 0.25);
+      background: rgba(255, 255, 255, 0.25)
       border-radius: 100%
       top: 50%
       left: 50%
@@ -654,8 +705,8 @@ body
         position: absolute
         width: 86px
         height: 86px
-        border-radius: 86px;
-        background: url(../images/icons.svg#video-block-btn) no-repeat 36px center, #ffffff;
+        border-radius: 86px
+        background: url(../images/icons.svg#video-block-btn) no-repeat 36px center, #ffffff
         background-size: 20px 24px
   &-content
     width: calc(50% - 15px)
@@ -664,7 +715,7 @@ body
       padding-left: 40px
       font-size: 28px
       line-height: 1.2
-      color: #ffe600;
+      color: #ffe600
       margin: 0 0 15px
     &-list
       list-style: none
@@ -682,58 +733,60 @@ body
           content: ''
           left: -40px
           top: 8px
-          background: url("../images/icons.svg#crown2") no-repeat left center;
+          background: url("../images/icons.svg#crown2") no-repeat left center
           background-size: 19px 14px
-          height: 14px;
-          width: 19px;
+          height: 14px
+          width: 19px
     &-btn
       display: inline-flex
       padding: 0 15px
       font-size: 16px
       width: auto
       margin-left: 40px
-      border: 2px solid #FFDD29;
+      border: 2px solid #FFDD29
 
 .section
   padding: 70px 0
   &-title
+    position: relative
     margin: 0 0 15px
     text-align: center
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 32px;
-    color: #000000;
+    font-weight: bold
+    font-size: 32px
+    line-height: 32px
+    color: #000000
   &-subtitle
+    position: relative
     display: block
     max-width: 850px
     margin: 0 auto 35px
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 18px;
-    text-align: center;
-    color: #969696;
+    font-weight: normal
+    font-size: 18px
+    line-height: 18px
+    text-align: center
+    color: #969696
 
 .tag
   margin: 0 10px 20px
   flex-grow: 2
-  border: 2px solid #FFDD29;
-  box-sizing: border-box;
-  border-radius: 50px;
+  border: 2px solid #FFDD29
+  box-sizing: border-box
+  border-radius: 50px
   display: flex
   align-items: center
   justify-content: center
   min-width: 120px
   max-width: 300px
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 18px;
-  text-align: center;
-  color: #000000;
+  font-weight: normal
+  font-size: 18px
+  line-height: 18px
+  text-align: center
+  color: #000000
   height: 44px
   padding: 0 30px
   cursor: pointer
   &:hover
-    background: #FFDD29;
+    background: #FFDD29
   &s
     padding: 110px 0 130px
     background: url(../images/vector-bg.svg) no-repeat 100% 50%
@@ -744,14 +797,14 @@ body
   &-block
     margin: 50px auto 0
     max-width: 887px
-    background: #FFFFFF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
+    background: #FFFFFF
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1)
+    border-radius: 15px
     overflow: hidden
     display: flex
     &-img
       width: 380px
-      border-radius: 10px;
+      border-radius: 10px
       overflow: hidden
       flex-shrink: 0
       margin-right: 70px
@@ -765,30 +818,30 @@ body
     &-title
       display: block
       margin: 0 0 30px
-      font-weight: bold;
-      font-size: 32px;
-      line-height: 32px;
-      color: #000000;
+      font-weight: bold
+      font-size: 32px
+      line-height: 32px
+      color: #000000
     &-text
       margin: 0 0 30px
-      font-weight: normal;
-      font-size: 18px;
-      line-height: 18px;
-      color: #969696;
+      font-weight: normal
+      font-size: 18px
+      line-height: 18px
+      color: #969696
     &-price
       display: block
       margin-bottom: 30px
-      font-weight: bold;
-      font-size: 32px;
-      line-height: 32px;
-      color: #249EFA;
+      font-weight: bold
+      font-size: 32px
+      line-height: 32px
+      color: #249EFA
     &-btn
       width: 100%
       max-width: 266px
 
 .why
   padding-bottom: 0
-  background-color: #efefef;
+  background-color: #efefef
   &-wrapper
     z-index: 2
   &-list
@@ -796,9 +849,9 @@ body
   &-block
     display: flex
     width: 100%
-    border-radius: 10px;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.04);
-    margin-bottom: 20px;
+    border-radius: 10px
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.04)
+    margin-bottom: 20px
     background: #fff
     overflow: hidden
     &-content
@@ -838,22 +891,22 @@ body
     &-text
       display: block
       margin-top: 45px
-      border-left: 4px solid #ffe600;
-      padding-left: 36px;
+      border-left: 4px solid #ffe600
+      padding-left: 36px
       font-weight: bold
-      font-size: 16px;
-      line-height: 22px;
-      color: #000000;
+      font-size: 16px
+      line-height: 22px
+      color: #000000
 
 .front
-  background: url(../images/main_bg.png) no-repeat center top;
-  background-size: auto;
-  min-height: 500px;
-  background-size: cover;
-  position: relative;
-  margin-top: -60px;
-  z-index: 1;
-  padding: 105px 0 0 0;
+  background: url(../images/main_bg.png) no-repeat center top
+  background-size: auto
+  min-height: 500px
+  background-size: cover
+  position: relative
+  margin-top: -60px
+  z-index: 1
+  padding: 105px 0 0 0
   &-container
     display: flex
     justify-content: space-between
@@ -875,9 +928,9 @@ body
     width: auto
     display: inline-flex
     padding: 0 15px
-    border: 2px solid #ffe600;
+    border: 2px solid #ffe600
     &:hover
-      border: 2px solid #ffe600;
+      border: 2px solid #ffe600
 
 .slick
   &-arrow
@@ -888,8 +941,8 @@ body
     background: url(../images/icons.svg#slider-arrow) no-repeat 15px center
     background-size: 35px 35px
     border-radius: 100%
-    border: 3px solid #FFDD29;
-    box-sizing: border-box;
+    border: 3px solid #FFDD29
+    box-sizing: border-box
     font-size: 0
     color: transparent
     z-index: 2
@@ -914,7 +967,7 @@ body
       width: 20px
       height: 20px
       margin: 0 7px
-      border: 1px solid #FFFFFF;
+      border: 1px solid #FFFFFF
       background: none
       font-size: 0
       border-radius: 100%
@@ -926,8 +979,8 @@ body
   padding: 70px 10px 0
   &-container
     position: relative
-    background: #FFFFFF;
-    border-radius: 15px;
+    background: #FFFFFF
+    border-radius: 15px
     padding: 170px 35px 50px
     text-align: center
   &-img
@@ -947,30 +1000,30 @@ body
       object-fit: cover
   &i
     padding: 85px 0 95px
-    background: #249EFA;
+    background: #249EFA
     &-title
       margin: 0 0 30px
       text-align: center
-      font-weight: bold;
-      font-size: 32px;
-      line-height: 32px;
-      color: #FFFFFF;
+      font-weight: bold
+      font-size: 32px
+      line-height: 32px
+      color: #FFFFFF
     &-slider
       max-width: 1020px 
       margin: 0 auto
   &-name
     display: block
     margin-bottom: 25px
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 32px;
-    color: #000000;
+    font-weight: bold
+    font-size: 32px
+    line-height: 32px
+    color: #000000
   &-text
     margin: 0 0 30px
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 18px;
-    color: #969696;
+    font-weight: normal
+    font-size: 18px
+    line-height: 18px
+    color: #969696
   &-btn
     width: 100%
 
@@ -988,13 +1041,13 @@ body
       display: block
       max-width: 100%
       max-height: 100%
-      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1)
       transition: 1s
   &-text
     display: block
     font-size: 16px
     line-height: 22px
-    color: #7d7d7d;
+    color: #7d7d7d
     text-align: center
   &s
     &-slider
@@ -1005,16 +1058,16 @@ body
 
 .news
   padding: 120px 0 190px
-  background: #249EFA;
+  background: #249EFA
   &-slider
     margin-top: 70px
   &-item
     padding: 0 8px
     &-container
       padding: 50px 80px 70px 15px
-      background: #FFFFFF;
-      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-      border-radius: 15px;
+      background: #FFFFFF
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1)
+      border-radius: 15px
       width: 760px
       display: flex
       align-items: center
@@ -1030,16 +1083,16 @@ body
     &-title
       display: block
       margin-bottom: 20px
-      font-weight: bold;
-      font-size: 32px;
-      line-height: 32px;
-      color: #000000;
+      font-weight: bold
+      font-size: 32px
+      line-height: 32px
+      color: #000000
     &-text
       margin: 0 0 35px
-      font-weight: normal;
-      font-size: 18px;
-      line-height: 18px;
-      color: #969696;
+      font-weight: normal
+      font-size: 18px
+      line-height: 18px
+      color: #969696
       &-more
         display: none
     &-btn
@@ -1059,10 +1112,10 @@ body
     padding: 0 10px 70px
     &-link
       display: block
-      font-weight: bold;
-      font-size: 24px;
-      line-height: 24px;
-      color: #000000;
+      font-weight: bold
+      font-size: 24px
+      line-height: 24px
+      color: #000000
 
     &-img
       height: 260px
@@ -1077,8 +1130,8 @@ body
 .review
   padding: 65px 140px 0
   &-container
-    background: #FFFFFF;
-    border-radius: 20px;
+    background: #FFFFFF
+    border-radius: 20px
     position: relative
     padding: 63px 30px 90px 113px
     &::after
@@ -1105,7 +1158,7 @@ body
       height: 100%
       object-fit: cover
   &s
-    background: #249EFA;
+    background: #249EFA
     overflow: hidden
     position: relative
     padding: 130px 0 150px
@@ -1137,24 +1190,24 @@ body
   &-name
     display: block
     margin-bottom: 8px
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 32px;
-    color: #000000;
+    font-weight: bold
+    font-size: 32px
+    line-height: 32px
+    color: #000000
   &-sub
     display: block
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 14px;
-    color: #969696;
+    font-weight: normal
+    font-size: 14px
+    line-height: 14px
+    color: #969696
   &-text
     display: block
     margin: 35px 0 0
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 18px;
+    font-weight: normal
+    font-size: 18px
+    line-height: 18px
 
-    color: #969696;
+    color: #969696
   &-video
     padding: 0 13px
     opacity: 0.4
@@ -1165,7 +1218,7 @@ body
       position: relative
       width: 874px
       height: 525px
-      border-radius: 20px;
+      border-radius: 20px
       overflow: hidden
     &-img
       display: block
@@ -1179,7 +1232,7 @@ body
       z-index: 2
       width: 82px
       height: 82px
-      background: url(../images/icons.svg#video-arrow) no-repeat 7px center, #FFFFFF;
+      background: url(../images/icons.svg#video-arrow) no-repeat 7px center, #FFFFFF
       background-size: 52px 52px
       border-radius: 100%
       cursor: pointer
@@ -1189,13 +1242,13 @@ body
 .insta
   &-line
     height: 270px
-    background: url(../images/insta-bg.png) no-repeat center top;
-    margin: 160px 0 180px 0;
+    background: url(../images/insta-bg.png) no-repeat center top
+    margin: 160px 0 180px 0
     position: relative
   &-phone
     position: absolute
-    left: 50%;
-    top: -103px; 
+    left: 50%
+    top: -103px 
   &-btn
     width: 100%
     max-width: 225px
@@ -1203,7 +1256,7 @@ body
 
 .footer
   position: relative
-  background: #249EFA;
+  background: #249EFA
   &::before
     position: absolute
     left: 0
@@ -1224,16 +1277,16 @@ body
     &-title
       margin: 0 0 40px
       display: block
-      font-weight: bold;
-      font-size: 28px;
-      line-height: 28px;
-      color: #FFFFFF;
+      font-weight: bold
+      font-size: 28px
+      line-height: 28px
+      color: #FFFFFF
     &-flex
       display: flex
       justify-content: space-between
       &--border
         padding-bottom: 45px
-        border-bottom: 1px solid #FFFFFF;
+        border-bottom: 1px solid #FFFFFF
         margin-bottom: 45px
     &-block
       width: calc(50% - 20px)
@@ -1242,24 +1295,24 @@ body
     &-span
       display: block
       margin-bottom: 10px
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 14px;
-      color: #FFFFFF;
+      font-weight: normal
+      font-size: 14px
+      line-height: 14px
+      color: #FFFFFF
     &-link
       display: inline-block
-      font-weight: bold;
-      font-size: 21px;
-      line-height: 21px;
-      color: #FFFFFF;
+      font-weight: bold
+      font-size: 21px
+      line-height: 21px
+      color: #FFFFFF
       margin-right: 20px
     &-get
       display: inline-block
-      font-weight: bold;
-      font-size: 18px;
-      line-height: 18px;
+      font-weight: bold
+      font-size: 18px
+      line-height: 18px
       text-decoration: underline
-      color: #FFDD29;
+      color: #FFDD29
       margin-top: 20px
       cursor: pointer
       &:hover
@@ -1268,7 +1321,7 @@ body
       width: 100%
       height: 58px
       margin-top: 24px
-      border: 2px solid #FFDD29;
+      border: 2px solid #FFDD29
 
 
 
@@ -1286,19 +1339,19 @@ body
       height: 90px
       margin-right: 30px
     &-text
-      font-weight: normal;
-      font-size: 20.3637px;
-      line-height: 21px;
+      font-weight: normal
+      font-size: 20.3637px
+      line-height: 21px
       padding-bottom: 10px
-      color: #FFFFFF;
+      color: #FFFFFF
       white-space: nowrap
       span
         display: block
-        font-style: normal;
-        font-weight: 500;
-        font-size: 30.5455px;
-        line-height: 36px;
-        color: #FFFFFF;
+        font-style: normal
+        font-weight: 500
+        font-size: 30.5455px
+        line-height: 36px
+        color: #FFFFFF
   &-socials
     margin-top: 75px
     display: flex
@@ -1313,7 +1366,7 @@ body
           fill: #fff
 
   &-bottom
-    background: #178CE4;
+    background: #178CE4
     padding: 30px 0 45px
     .footer-socials-item
       &:hover
@@ -1325,17 +1378,17 @@ body
       align-items: center
       width: 320px
       height: 58px
-      border: 1px solid #FFFFFF;
-      box-sizing: border-box;
-      border-radius: 50px;
-      font-weight: normal;
-      font-size: 18px;
-      line-height: 18px;
-      text-align: center;
-      color: #FFFFFF;
+      border: 1px solid #FFFFFF
+      box-sizing: border-box
+      border-radius: 50px
+      font-weight: normal
+      font-size: 18px
+      line-height: 18px
+      text-align: center
+      color: #FFFFFF
       &:hover
         background: #fff
-        color: #178CE4;
+        color: #178CE4
 
     &-menu
       list-style: none
@@ -1348,20 +1401,20 @@ body
       &-item
         padding: 0 7px
         a
-          font-weight: 400;
-          font-size: 10px;
-          line-height: 12px;
-          text-decoration-line: underline;
-          color: #FFFFFF;
+          font-weight: 400
+          font-size: 10px
+          line-height: 12px
+          text-decoration-line: underline
+          color: #FFFFFF
           &:hover
             text-decoration: none
   &-politic
     display: block
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    text-decoration-line: underline;
-    color: #FFFFFF;
+    font-weight: normal
+    font-size: 12px
+    line-height: 14px
+    text-decoration-line: underline
+    color: #FFFFFF
     &:hover
       text-decoration: none
 
@@ -1401,24 +1454,24 @@ body
     max-height: calc(100% - 40px)
     overflow: hidden
     overflow-y: auto
-    background: #FFFFFF;
-    border-radius: 10px;
+    background: #FFFFFF
+    border-radius: 10px
     padding: 70px 60px 55px
     text-align: center
   &-title
     display: block
     margin-bottom: 20px
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 36px;
-    color: #000000;
+    font-weight: bold
+    font-size: 36px
+    line-height: 36px
+    color: #000000
   &-subtitle
     display: block
     margin-bottom: 25px
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 18px;
-    color: #969696;
+    font-weight: normal
+    font-size: 18px
+    line-height: 18px
+    color: #969696
   &-input
     width: 100%
     height: 51px
@@ -1427,16 +1480,615 @@ body
   &-submit
     height: 56px
     width: 100%
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 14px
+    line-height: 14px
     margin-bottom: 30px
   &-check
     .check-text
       font-size: 12px
       line-height: 1
 
+.block
+  max-width: 887px
+  margin: 0 auto 32px
+  background: #FFFFFF
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1)
+  border-radius: 15px
+  display: flex
+  justify-content: space-between
+  position: relative
+  &:nth-child(4n+1)
+    &::before
+      position: absolute
+      content: ''
+      width: 42px
+      height: 42px
+      border: 7px solid #FFDD29
+      box-sizing: border-box
+      border-radius: 100%
+      top: -68px
+      left: -210px
+  &:nth-child(4n+2)
+    &::before
+      position: absolute
+      content: ''
+      width: 42px
+      height: 42px
+      background: url(../images/icons.svg#shape) no-repeat center
+      background-size: contain
+      top: -40px
+      right: -150px
+  &:nth-child(4n+3)
+    &::before
+      position: absolute
+      content: ''
+      width: 42px
+      height: 42px
+      border: 7px solid #FFDD29
+      box-sizing: border-box
+      border-radius: 100%
+      top: -21px
+      right: -70px
+  &:nth-child(4n)
+    &::before
+      position: absolute
+      content: ''
+      width: 42px
+      height: 42px
+      background: url(../images/icons.svg#shape) no-repeat center
+      background-size: contain
+      top: 190px
+      left: -150px
+      transform: rotate(30deg)
+  &-img
+    width: 43%
+    border-radius: .9375rem /* 15/16 */
+    overflow: hidden
+    img
+      display: block
+      width: 100%
+      height: 100%
+      object-fit: cover
+  &-content
+    width: 57%
+    padding: 65px 50px 60px 74px
+    &--left
+      padding: 65px 74px 60px 50px
+  &s
+    position: relative
+    background: #249EFA
+    padding: 100px 0
+    &-list
+      position: relative
+      z-index: 2
+      margin-top: 80px
+    &::before
+      position: absolute
+      left: 0
+      top: 290px
+      content: ''
+      width: 627px
+      height: 1329px
+      background: url(../images/icons.svg#block-bg) no-repeat center
+      background-size: contain
+    &::after
+      position: absolute
+      right: 0
+      bottom: -15px
+      content: ''
+      width: 622px
+      height: 1456px
+      background: url(../images/icons.svg#block-bg2) no-repeat center
+      background-size: contain
+  &-title
+    display: block
+    margin-bottom: 30px
+    font-weight: bold
+    font-size: 32px
+    line-height: 32px
+    color: #000000
+  &-text
+    margin: 0 0 24px
+    font-weight: normal
+    font-size: 18px
+    line-height: 18px
+    color: #969696
+  &-btn
+    width: 100%
+    max-width: 266px
+  &s
+    &2
+      padding: 120px 0 140px
+      background: #249EFA
+      position: relative
+      .wrapper
+        &::before
+          position: absolute
+          content: ''
+          right: -560px
+          top: -900px
+          width: 987px
+          height: 1456px
+          background: url(../images/icons.svg#block2-bg) no-repeat center
+          background-size: contain
+  &2
+    background: #FFFFFF
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1)
+    border-radius: 10px
+    display: flex
+    max-width: 1110px
+    margin: 0 auto
+    position: relative
+    &::before
+      position: absolute
+      z-index: 2
+      content: ''
+      top: -110px
+      left: -70px
+      width: 41px
+      height: 41px
+      background: url(../images/icons.svg#shape) no-repeat center
+      background-size: contain
+    &::after
+      position: absolute
+      content: ''
+      bottom: -154px
+      left: -86px
+      width: 172px
+      height: 309px
+      background: url(../images/icons.svg#peshka) no-repeat center
+      background-size: contain
+    &-img
+      width: 45%
+      border-radius: 10px
+      overflow: hidden
+      img
+        display: block
+        width: 100%
+        height: 100%
+        object-fit: cover
+    &-content
+      width: 55%
+      padding: 55px 40px 85px 70px
+    &-title
+      display: block
+      margin-bottom: 25px
+      font-weight: bold
+      font-size: 32px
+      line-height: 32px
+      color: #000000
+    &-text
+      margin: 0 0 25px
+      font-weight: normal
+      font-size: 18px
+      line-height: 18px
+      color: #969696
+    &-list
+      list-style: none
+      padding: 0
+      margin: 0 0 25px
+      &-item
+        position: relative
+        padding-left: 40px
+        font-weight: normal
+        font-size: 18px
+        line-height: 26px
+        color: #969696
+        background: url(../images/icons.svg#crown) no-repeat left top
+        background-size: 22px 22px
+    &-price
+      display: block
+      margin-bottom: 50px
+      font-weight: bold
+      font-size: 32px
+      line-height: 32px
+      color: #249EFA
+    &-btn
+      width: 100%
+      max-width: 340px
+      height: 65px
+
+.book
+  position: relative
+  padding: 90px 0 100px
+  background: #fff
+  &-wrapper
+    position: relative
+    z-index: 2
+    display: flex
+  &-left
+    width: 430px
+    margin-right: 20px
+    flex-shrink: 0
+    &-icon
+      width: 165px
+      height: 165px
+      margin-bottom: 50px
+      img
+        display: block
+        width: 100%
+        height: 100%
+        object-fit: contain
+    &-text
+      font-weight: normal
+      font-size: 18px
+      line-height: 18px
+      color: #969696
+  &-title
+    margin: 0 0 55px
+    font-weight: bold
+    font-size: 64px
+    line-height: 64px
+    color: #000000
+  &-switch
+    display: flex
+    border: 2px solid #FFDD29
+    border-radius: 30px
+    overflow: hidden
+    margin-bottom: 160px
+    &-btn
+      width: 50%
+      font-weight: normal
+      font-size: 25px
+      line-height: 25px
+      text-align: center
+      color: #000000
+      padding: 13px 0 15px
+      display: block
+      cursor: pointer
+      &:hover
+        color: #249EFA
+        font-weight: bold
+      &.active
+        background: #FFDD29
+        color: #249EFA
+        font-weight: bold
+  &-plash
+    padding: 35px 50px
+    background: #FFFFFF
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1)
+    border-radius: 10px
+    flex-grow: 2
+  &-days, &-times
+    display: flex
+    justify-content: space-between
+  &-day
+    position: relative
+    flex-grow: 2
+    display: flex
+    align-content: center
+    flex-wrap: wrap
+    justify-content: center
+    text-align: center
+    padding: 13px 0
+    border-radius: 10px
+    cursor: pointer
+    &:hover
+      background: #F3F3F3
+      &::after
+        display: none
+      & + .book-day::after
+        display: none
+    &.active
+      background: #FFDD29
+      .book-day-title
+        font-weight: bold
+      &::after
+        display: none
+      & + .book-day::after
+        display: none
+    &::after
+      position: absolute
+      content: ''
+      left: 0
+      top: calc(50% - 19px)
+      height: 37px
+      width: 1px
+      background: #C4C4C4
+    &:first-child::after
+      display: none
+    &s
+      padding: 11px 0
+      border-bottom: 1px solid #C4C4C4
+    &-span
+      display: block
+      font-weight: normal
+      font-size: 12px
+      line-height: 12px
+      color: #C4C4C4
+    &-title
+      width: 100%
+      display: block
+      font-weight: normal
+      font-size: 18px
+      line-height: 18px
+      color: #000000
+  &-time
+    padding: 17px 0 37px
+    border-radius: 10px
+    flex: 1 1
+    position: relative
+    cursor: pointer
+    display: flex
+    align-content: center
+    flex-wrap: wrap
+    justify-content: center
+    text-align: center
+    &:hover
+      background: #F3F3F3
+    &.active
+      background: #FFDD29
+    &s
+      padding: 20px 0
+    &-span
+      width: 100%
+      display: block
+      margin-bottom: 20px
+      font-weight: normal
+      font-size: 14px
+      line-height: 14px
+      color: #000000
+    &-num
+      font-weight: bold
+      font-size: 36px
+      line-height: 36px
+      color: #000000
+  &-content
+    display: flex
+    flex-wrap: wrap
+    margin-bottom: 15px
+  &-cell
+    width: 50%
+    border-top: 1px solid #C4C4C4
+    padding: 15px 0 15px 0
+    position: relative
+    &.active
+      .book-cell
+        &-container
+          background: #249EFA
+        &-time, &-count, &-name, &-subname
+          color: #fff
+    &::after
+      position: absolute
+      content: ''
+      height: 37px
+      width: 1px
+      background:  #C4C4C4
+      right: -1px
+      top: calc(50% - 19px)
+    &:nth-child(2n)
+      .book-cell-container
+        padding-left: 50px
+        padding-right: 30px
+        margin-left: 0
+        margin-right: -30px
+      &::after
+        display: none
+    &-img
+      margin-right: 18px
+      width: 94px
+      height: 94px
+      border-radius: 100%
+      flex-shrink: 0
+      box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3)
+      overflow: hidden
+      img
+        display: block
+        width: 100%
+        height: 100%
+        object-fit: cover
+    &-time
+      display: block
+      margin-bottom: 15px
+      font-weight: bold
+      font-size: 36px
+      line-height: 36px
+      color: #000000
+    &-count
+      display: block
+      font-weight: normal
+      font-size: 18px
+      line-height: 18px
+      color: #249EFA
+    &-name
+      display: block
+      margin-bottom: 10px
+      font-weight: bold
+      font-size: 18px
+      line-height: 18px
+      color: #000000
+    &-subname
+      font-weight: normal
+      font-size: 14px
+      line-height: 14px
+      color: #C4C4C4
+    &-container
+      border-radius: 10px
+      margin-left: -30px
+      padding: 20px 50px 20px 30px
+      cursor: pointer
+      &:hover
+        background: #F3F3F3
+  &-footer
+    &-btn
+      width: 100%
+      height: 84px
+      font-size: 24px
+      border-radius: 10px
+      &.disable
+        background: #F3F3F3
+        color: #C4C4C4
+        pointer-events: none
+
+.price
+  padding: 100px 0 90px
+  background: #3FAAFB
+  box-shadow: 0px 4px 40px #369DE8
+  &-btn
+    flex: 1 1
+    display: block
+    font-weight: bold
+    font-size: 18px
+    line-height: 18px
+    text-align: center
+    color: #000000
+    margin: 0 10px
+    background: #FFFFFF
+    border-radius: 100px
+    padding: 22px
+    cursor: pointer
+    &.active
+      background: #FFDD29
+    &s
+      display: flex
+      margin: 0 -10px 100px
+      align-items: center
+      margin-top: 45px
+  &-list
+    display: flex
+    flex-wrap: wrap
+    margin: 0 -10px -45px
+  &-item
+    padding: 0 10px 45px
+    width: 25%
+    &-container
+      position: relative
+      text-align: center
+      background: #FFFFFF
+      height: 100%
+      border-radius: 10px
+      padding: 65px 20px 70px
+    &-sale
+      position: absolute
+      width: 180px
+      height: 62px
+      background: #249EFA
+      border-radius: 100px
+      font-weight: bold
+      font-size: 18px
+      line-height: 18px
+      color: #FFFFFF
+      padding: 22px 0
+      top: -31px
+      left: calc(50% - 90px)
+    &-count
+      display: block
+      margin-bottom: 40px
+      font-weight: bold
+      font-size: 18px
+      line-height: 18px
+      color: #000000
+    &-perhour
+      display: block
+      margin-bottom: 35px
+      font-weight: bold
+      font-size: 18px
+      line-height: 18px
+      color: #000000
+      font-weight: bold
+      font-size: 36px
+      line-height: 36px
+      color: #249EFA
+    &-all
+      display: block
+      margin-bottom: 40px
+      font-weight: bold
+      font-size: 48px
+      line-height: 48px
+      color: #000000
+    &-btn
+      height: 63px
+      width: 100%
+      margin-bottom: 23px
+    &-vygoda
+      display: block
+      font-weight: bold
+      font-size: 18px
+      line-height: 18px
+      color: #249EFA
+    &-big
+      width: 50%
+      order: 10
+      padding: 0 10px 45px
+      position: relative
+      &-container
+        background: #FFDD29
+        border-radius: 10px
+        height: 100%
+        padding: 0 50px
+        text-align: center
+      &-img
+        width: 227px
+        height: 200px
+        display: flex
+        align-items: flex-end
+        margin: 0 auto 35px
+        img
+          display: block
+          width: 227px
+          height: 294px
+      &-title
+        display: block
+        margin-bottom: 35px
+        font-weight: bold
+        font-size: 48px
+        line-height: 48px
+        color: #000000
+      &-text
+        font-weight: normal
+        font-size: 24px
+        line-height: 24px
+        color: #000000
+
+.dops
+  padding: 100px 0
+  background: rgba(196, 196, 196, 0.1)
+  &-table
+    background: #FFFFFF
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1)
+    padding-top: 54px
+    &-block
+      width: 100%
+      border-collapse: collapse
+      border-spacing: 0
+      th
+        font-weight: bold
+        text-align: left
+        width: 50%
+        font-size: 24px
+        line-height: 24px
+        color: #000000
+        border-bottom: 1px solid #249EFA
+        padding: 25px 0
+        &:first-child
+          padding-left: 110px
+      td
+        height: 100px
+        font-weight: normal
+        font-size: 24px
+        line-height: 24px
+        color: #000000
+        padding: 25px 0
+        &:first-child
+          padding-left: 110px
+        &:last-child
+          font-weight: bold
+          color: #249EFA
+      tr:nth-child(2n+1) td
+        background: rgba(196, 196, 196, 0.1)
+
+  &-title
+    display: block
+    text-align: center
+    margin-bottom: 50px
+    font-weight: bold
+    font-size: 32px
+    line-height: 32px
+    color: #000000
 
 
+
+      
 
 
 
