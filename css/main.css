@@ -1748,8 +1748,8 @@ body.active .banner::before {
   width: 100%;
   -webkit-border-radius: 10px;
           border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.04);
-          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   background: #fff;
   overflow: hidden;
@@ -4556,7 +4556,7 @@ body.active .banner::before {
     width: 100%;
   }
   .front-title {
-    font-size: 32px;
+    font-size: 28px;
     line-height: 1;
     margin: 0 0 30px;
   }
@@ -5008,6 +5008,26 @@ body.active .banner::before {
     width: 64px;
     height: 64px;
     margin: 0 10px;
+  }
+  .video-flex::before {
+    bottom: 0;
+  }
+  .video-block {
+    height: 194px;
+  }
+  .why-block-img {
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+  }
+  .why-block-img img {
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    height: 120%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 
