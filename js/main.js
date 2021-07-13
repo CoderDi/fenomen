@@ -84,6 +84,7 @@ $(document).ready(function(){
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
+          centerMode: true,
           variableWidth: true
         }
       }
@@ -99,7 +100,6 @@ $(document).ready(function(){
       {
         breakpoint: 768,
         settings: {
-          centerMode: false,
           dots: false,
         }
       }

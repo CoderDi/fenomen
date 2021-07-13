@@ -115,9 +115,14 @@
         left: -100px
   .slick
     &-arrow
-      display: none
-      opacity: 0
-      visibility: hidden
+      width: 42px
+      height: 42px
+      background-position: 9px center
+      background-size: 22px 22px
+    &-prev
+      left: 20px !important
+    &-next
+      right: 20px !important
   .footer
     &-top
       &-content
@@ -318,13 +323,8 @@
           font-size: 12px
           line-height: 20px
   .tag
-    min-width: 180px
-    &s
-      &-list
-        min-width: 1500px
-        &-container
-          width: 100%
-          overflow-x: auto
+    min-width: 0
+    max-width: 1000px
   .pedagog
     padding-left: 0
     padding-right: 20px
@@ -359,10 +359,7 @@
   .book
     padding: 50px 0
     &-header
-      overflow-x: auto
       padding: 0 20px
-    &-days, &-times
-      min-width: 900px
     &-title
       font-size: 28px
       line-height: 34px
@@ -399,7 +396,12 @@
           &:first-child
             padding-left: 40px
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 767px)
+  .slick
+    &-arrow
+      display: none
+      opacity: 0
+      visibility: hidden
   .banner
     &-item
       width: 100%
@@ -560,6 +562,11 @@
       margin: 0 0 30px
     &-btn
       font-size: 14px
+      height: 48px
+      width: 100%
+      max-width: 320px
+      margin: 0 auto
+      display: flex
   .pedagog
     &i
       padding: 50px 0
@@ -806,13 +813,13 @@
       &-img
         margin: 0 20px
     &-content
-      max-height: 500px
-      overflow-y: auto
       margin: 0
     &-footer-btn
       height: 63px
       margin: 0 20px
       width: auto
+    
+  
   .price
     padding: 50px 0 10px
     &-btn
@@ -867,6 +874,21 @@
         width: 240px
         left: -30px
   .book
+    &-time
+      width: 25%
+      flex: initial
+      &s
+        width: 100%
+        flex-wrap: wrap
+        justify-content: flex-start
+    &-day
+      width: 50%
+      flex-grow: initial
+      &::after
+        display: none
+      &s
+        justify-content: flex-start
+        flex-wrap: wrap
     &-cell
       &-img
         flex-shrink: 2
